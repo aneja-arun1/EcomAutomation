@@ -44,7 +44,7 @@ public class DriverManager {
   }
   
   public static void main(String args[]) {
-    new DriverAbstraction().open().get("http://www.yahoo.com");
+    new DriverManager().open().get("http://www.yahoo.com");
   }
 
 }
